@@ -1,6 +1,6 @@
 package br.qziul.inplementacao;
 
-public interface ISupermercado {
+public interface IListaDeCompras {
     void add(final String item);
     void list();
     void delete(final int index);

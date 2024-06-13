@@ -1,7 +1,7 @@
 package br.qziul;
 
-import br.qziul.inplementacao.ISupermercado;
-import br.qziul.inplementacao.ImpSupermercado;
+import br.qziul.inplementacao.IListaDeCompras;
+import br.qziul.inplementacao.ImpListaDeCompras;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Main {
         System.out.print("-> ");
         TAM = scan.nextInt();
 
-        ISupermercado supermercado = new ImpSupermercado(TAM);
+        IListaDeCompras supermercado = new ImpListaDeCompras(TAM);
 
         do {
             System.out.println("\n== Lista de Compras ("+supermercado.getQtdItens()+"/"+TAM+") ==");

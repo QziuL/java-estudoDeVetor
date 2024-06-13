@@ -1,10 +1,10 @@
 package br.qziul.inplementacao;
 
-public class ImpSupermercado implements ISupermercado{
+public class ImpListaDeCompras implements IListaDeCompras {
     private String[] itens;
     private int ultimaPosicao;
 
-    public ImpSupermercado(int TAM) {
+    public ImpListaDeCompras(int TAM) {
         this.itens = new String[TAM];
         ultimaPosicao = -1;
     }
